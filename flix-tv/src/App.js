@@ -15,12 +15,13 @@ export default() => {
 
     return (
       <div className="page">
+        Ola,mundo!
         <section className="lists">
-          {/* {
+          {
             movieList.map((item, key)=> {
               return (<MovieRow key={key} title={item.title} items={item.items}/>)
             })
-          } */}
+          }
 
         </section>
       </div>
